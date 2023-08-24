@@ -1,6 +1,6 @@
-# Dockerized-Multiclass-Classification-Template
+# Multiclass-Classification-JN-Template
 
-Dockerized ML model with train and predict APIs with a very basic preprocessing pipeline
+Dockerized ML model with train and predict APIs with a very basic preprocessing pipeline using Jupyter Notebooks
 
 ## This repository is a dockerized implementation of the re-usable multiclass classifier model.
 
