@@ -14,7 +14,7 @@ case $command in
 
   train)
   {
-    jupyter nbconvert --to python  --execute train.ipynb
+    jupyter nbconvert --to python  --execute train.ipynb 2>/dev/null
     python /opt/src/train.py "$@"
   }
     ;;
@@ -22,7 +22,7 @@ case $command in
   # If the command is "predict", run the predict.py script with all remaining arguments
   predict)
   {
-    jupyter nbconvert --to python  --execute predict.ipynb
+    jupyter nbconvert --to python  --execute predict.ipynb 2>/dev/null
     python /opt/src/predict.py "$@"
   }
     ;;
