@@ -14,7 +14,7 @@ case $command in
 
   train)
   {
-    jupyter nbconvert --to python  --execute train.ipynb 2>/dev/null
+    jupyter nbconvert --to python  --execute train.ipynb 
     python /opt/src/train.py "$@"
   }
     ;;
