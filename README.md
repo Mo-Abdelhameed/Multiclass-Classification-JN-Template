@@ -19,7 +19,7 @@ The following is the directory structure of the project:
   - **`predict.ipynb`**: This script is used to run batch predictions using the trained model. It loads the artifacts and creates and saves the predictions in a file called `predictions.csv` in the path `./model_inputs_outputs/outputs/predictions/`.
 - **`.gitignore`**: This file specifies the files and folders that should be ignored by Git.
 - **`Dockerfile`**: This file is used to build the Docker image for the application.
-- **`entry_point.sh`**: This file is used as the entry point for the Docker container. It is used to run the application. When the container is run using one of the commands `train`, `predict` or `serve`, this script runs the corresponding script in the `src` folder to execute the task.
+- **`entry_point.sh`**: This file is used as the entry point for the Docker container. It is used to run the application. When the container is run using one of the commands `train` or `predict`, this script runs the corresponding script in the `src` folder to execute the task.
 
 ## Usage
 
